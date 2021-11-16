@@ -1,10 +1,4 @@
-# Sorting Visualiser using matplotlib in python
-
-A Visualisation tool for sorting algorithms made using python's famous data visualisation library matplotlib.
-
-![GIF](https://github.com/sharma-kunal/Sorting-Visualiser/blob/master/media/video_1.gif)
-
-![GIF](https://github.com/sharma-kunal/Sorting-Visualiser/blob/master/media/video_2.gif)
+# Sorting Visualiser 
 
 ## Installation
 
