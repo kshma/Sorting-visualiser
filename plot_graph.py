@@ -19,7 +19,7 @@ s_type = {
 
 
 def draw_chart(sort_type, original_data, frame_interval):
-    fig = plt.figure(1, figsize=(16, 9))
+    fig = plt.figure(1, figsize=(10, 5))
     data_set = [Data(d) for d in original_data]
     axs = fig.add_subplot(111)
     plt.subplots_adjust(left=0.01, bottom=0.01, right=0.99, top=0.95)

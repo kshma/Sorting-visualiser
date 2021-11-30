@@ -8,5 +8,5 @@ class Data:
 
     def set_color(self, color=None):
         if not color:
-            color = 'yellow'
+            color = '#C9A959'
         self.color = color

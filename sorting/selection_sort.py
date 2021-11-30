@@ -14,10 +14,10 @@ def selection_sort(data):
             frames.append(updated_data)
             if new_data[min_idx].value > new_data[j].value:
                 new_data[min_idx].set_color('yellow')
-                new_data[j].set_color('m')
+                new_data[j].set_color('cyan')
                 min_idx = j
         new_data[i], new_data[min_idx] = new_data[min_idx], new_data[i]
-        new_data[i].set_color('pink')
-    new_data[-1].set_color('pink')
+        new_data[i].set_color('m')
+    new_data[-1].set_color('m')
     frames.append(new_data)
     return frames
