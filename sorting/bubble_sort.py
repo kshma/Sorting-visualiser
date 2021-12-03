@@ -1,3 +1,4 @@
+import time
 from sorting.Data import Data
 from copy import deepcopy
 
